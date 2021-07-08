@@ -1,11 +1,6 @@
-## cPanel 管理控制臺 https://tw-free.node.tw/cpanel
-## ftp 位址 ftp://tw-free.node.tw/
-## 帳號：tgcom
-## 密碼：G~TG;dfJf0lL
+# 1.tabbar的css樣式
 
-## 1.tabbar的css樣式
-
-## 2.“我的”頁面的全部(webview 你再搬過來)
+# 2 "我的頁面" 的全部(webview 你再搬過來)
 
 - 首頁的樣式:	最上方的 “關注” “搜尋” 功能先不用, 做主播分類、跑馬燈(圖片是寫死的)、底下的列表
 - headerBar: (上方的列表) 二層--->主播分類 --->
@@ -14,20 +9,20 @@
 - 列表: 2列多攔 
 - bottomBar:(底下的列表)
 
-## 3.我的 ---> webview --> 原有頁面
+# 3.我的 ---> webview --> 原有頁面
 
 - tommow 手機照片能否上傳照片 OK
 
 - 系統圖 頭像 暱稱 性別 生日 地點 描述 OK
 
-## 4.設置移除
+# 4.設置移除
 
 - 使用者: id
 - 使用者: token
 - 主播: uid
 - 主播: stream
 
-## webview texting 最新分支
+# webview texting 最新分支
   
 - 主播頁面 排行榜 守護
 
@@ -41,16 +36,14 @@
 - 未完成:
 - 我的  編輯資料  主播頁面  Loading頁面
 
-## 總部後台
+# 總部後台
+- http://admin.n9963.com/ 客戶測試環境
+- http://tpeadminapi.ge345.com/api/v2 台北測試環境
+- 台北測試環境帳號 xlr123456 12341234
+- 總部測試環境帳號 michael888 456789123 
+- 台北測試環境帳號 michael 12345678
 
-- xlr123456 12341234
-- michael888 456789123 總部
-
-- michael 12345678
-
-## 總部後台
-
-## 新增需求
+# 新增需求
 - 完成:
 
 
@@ -76,21 +69,6 @@
 功能: 未開始 進行中 已結束 
 
 資料呈現: 手機頁面
-
-
-
-keyframes 
-
-0 ~ 3段
-
-0.
-opacity: 0~1
-
-2. 分三段(left top 不一樣)
-
-3.
-opacity: 1~0
-@click事件 switch事件(隨機1~3)
 
 
 ## 直播
@@ -119,12 +97,9 @@ opacity: 1~0
   - list api  
   - 另開 麼api  1天
 
-<!-- ## 遊戲紀錄
+## 遊戲紀錄
   - list api
-  - 另開 api  1天 -->
-
-  8天
-
+  - 另開 api  1天
 
 ## 直播新需求
 
@@ -144,11 +119,7 @@ opacity: 1~0
 ### 後台 api 發送 取消發送 一鍵發送 匯出excel 預計明日 3/25 拿到
 
 
-
-
-
 ## 詳情頁面 新增頁面 修改頁面
-
 
 
 # 3/29 ~ # 4/01
@@ -197,11 +168,11 @@ opacity: 1~0
 # tg_user 帳密 jeffus2 12345678
 
 
-## 給前端用的域名， tg88666.com ，
-## cPanel 管理控制臺 https://tw-free.node.tw/cpanel
-## ftp 位址 ftp://tw-free.node.tw/
-## 帳號：tgcom
-## 密碼：G~TG;dfJf0lL
+# 給前端用的域名， tg88666.com ，
+- cPanel 管理控制臺 https://tw-free.node.tw/cpanel
+- ftp 位址 ftp://tw-free.node.tw/
+- 帳號：tgcom
+- 密碼：G~TG;dfJf0lL
 
 # 4/12 ~ 4/16
 - 爭霸賽 前後台頁面 ( 含 api 串接 ) end 
@@ -226,35 +197,32 @@ localStorage.getItem('token')
 
 # 5/6 end
 
-彈跳視窗
-設計製作一個寬高各 300px 的彈跳視窗component(不使用任何 ui 框架)
-簡單使用z-index 999 做出 黑色mask
-點擊父層一個按鈕顯示出彈跳視窗
-以父層data變數控制彈跳視窗的顯示與關閉
-彈跳視窗 compoment 有個關閉(close)按鈕點擊之後可以關閉彈跳視窗
-
-彈跳視窗compoment使用 slot 讓使用者可以自訂彈窗的title 與 content 
-
-彈跳視窗 compoment 內有加法按鈕, 點擊可以讓父層 count變數 +1
-count 變數用store(vuex) 存放
-
+# 前端基本上機考試題目(彈跳視窗
+```
+1.設計製作一個寬高各 300px 的彈跳視窗component(不使用任何 ui 框架)
+2.簡單使用z-index 999 做出 黑色mask
+3.點擊父層一個按鈕顯示出彈跳視窗
+4.以父層data變數控制彈跳視窗的顯示與關閉
+5.彈跳視窗 compoment 有個關閉(close)按鈕點擊之後可以關閉彈跳視窗
+6.彈跳視窗compoment使用 slot 讓使用者可以自訂彈窗的title 與 content 
+7.彈跳視窗 compoment 內有加法按鈕, 點擊可以讓父層 count變數 +1
+8.count 變數用store(vuex) 存放
+```
 
 # 跳api方式 新增 api 文件
-
-
-npm run dev --site=amxpj
 
 
 
 # 5/7
 
-建立 TODO LIST
+# 前端基本上機考試題目(建立 TODO LIST
+```
 顯示內容：
 1. 輸入框
 2. 所有的 TODO 事項
 3. 計數器
 
-功能
+功能:
 所有的變數都需放在 vuex 內做操作, 也就是變數都放在 state, 
 function 都放在 actions 內
 1. 可新增 TODO 事項
@@ -264,18 +232,31 @@ function 都放在 actions 內
 5. 切換檢視模式：看全部、已完成或未完成的 TODO 事項
 6. 在檢視按鈕上顯示目前全部、已完成和未完成的 TODO 事項
 7. 每新增一筆事項, 都需要隔 5 秒才能再做新增(顯示倒數5秒, 在這 5 秒內輸入框不得輸入)
+```
+
+# lottery-wap-new 開啟方式
+- npm run dev --site=amxpj
+
+# lottery-wap-new 對應站點
+- 839棋牌 839qp.3335525.com #end
+- F组-太阳城 tccp.3335525.com #end
+- F组-金沙 hty.3335525.com
+- 大佬彩票 dalao.3335525.com
 
 
 
-
-839棋牌 839qp.3335525.com #end
-F组-太阳城 tccp.3335525.com #end
-F组-金沙 hty.3335525.com
-大佬彩票 dalao.3335525.com
-
-
-
-kf-wap
-
+# kf-wap  客服對話開啟網址(本地
+- VIP
 http://localhost:8080/#/sutomerSaveList?token=10000003&port=3&hotGame=3&theme=blush&vipAccount=4531112&vipName=121&hierarchyId=11&preferential=5&webUrl=http%3A%2F%2F192.168.1.4%3A8080#/
+- 一般
+http://localhost:8080/#/generalStaff?token=10000003&port=3&type=0&key=679d6ff124fb435dc879b6f70c0ba634&vipAccount=4531112
+
+
+# Vip支付流程
+uuid = token
+
+資料庫 -> token
+socket 緩存 -> uuid
+
+客服 對應 上級代理要符合
 
