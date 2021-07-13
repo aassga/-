@@ -238,10 +238,17 @@ function 都放在 actions 內
 - npm run dev --site=amxpj
 
 ## lottery-wap-new 對應站點
-- 839棋牌 839qp.3335525.com #end
-- F组-太阳城 tccp.3335525.com #end
-- F组-金沙 hty.3335525.com
-- 大佬彩票 dalao.3335525.com
+- 839棋牌  839qp.3335525.com
+- F组-太阳城  tccp.3335525.com
+- F组-金沙  hty.3335525.com
+- F组-威尼斯人  dqr.3335525.com
+- F组-新葡京  fhcp.3335525.com
+- Q全民彩票  qmcp.3335525.com
+- 亚博彩票  ybcp.3335525.com
+- 彩票网  wycp.3335525.com
+- 大佬彩票  dalao.3335525.com
+- 金星国际  Welcome 
+- wp-威尼斯  aqvns.3335525.com
 
 
 
