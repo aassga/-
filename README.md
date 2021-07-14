@@ -342,3 +342,8 @@ import cpxpjLogin from './cpxpjLogin'
 6. src/pages/type/Type.vue 指定 type
 7. src/pages/home/Home.vue 新增 component 
 HomeCpxpj: homes.HomeCpxpj
+
+
+## 如果要先看公告的效果
+marqueeList: 
+[{"id":3572,"siteId":77,"siteName":"F组-BET365","component":"","title":"欢迎光临！！！","type":"lantern","sub_type":"''","client_type":"PC,Android,H5,IOS","description":"欢迎光临“bet365”，在广大会员的信任与支持下，公司逐渐发展壮大，但努力永不止步，我们秉承“服务至上，客户第一”的经营理念！竭诚为每一位玩家提供专业、高效、优质的服务！“bet365”与您相伴，不忘初心，创新前进！\n易记域名： 6655.com   365n.com","status":"yes","publish_at":1623081600,"offline_at":1654012800,"created_at":"2021-06-08 21:33:29","updated_at":"2021-07-06 18:09:43","bounce_location":3,"appears_location":"1","pc_pic":"","mob_pic":"","desc_mobile":"","custom_url":"","desc_format_type":"text","sort":5,"bounce_location_h5":3,"orderId":"6251238405731"},{"id":3570,"siteId":77,"siteName":"F组-BET365","component":"","title":"充值推荐！！！","type":"lantern","sub_type":"''","client_type":"PC,H5,IOS,Android","description":"☆☆☆充值推荐☆☆☆ 充值首选【网银转账】： 尊敬各位会员您好，由于近期第三方充值不稳定，请您使用【网银转账】充值无需审核秒到账大额无忧，每日更有亿万元红包送不停，支付手续费让利会员火热进行中！业界首家全自动网银转账，正确填写存款信息，优惠赠送最高可送2%超！超！超！超高入款优惠，秒到账！\nbet365 易记域名： 6655.com   365n.com","status":"yes","publish_at":1623081600,"offline_at":1635609600,"created_at":"2021-06-08 21:32:13","updated_at":"2021-06-30 21:08:28","bounce_location":3,"appears_location":"1","pc_pic":"","mob_pic":"","desc_mobile":"","custom_url":"","desc_format_type":"text","sort":0,"bounce_location_h5":3,"orderId":"6250651167100"}]
