@@ -316,7 +316,7 @@ socket 緩存 -> uuid
 - 整體的主題色是用 config 這邊控制的
 - theme 樣式調整
 - 可以問一下 Owen 看看 原來是全白的
-- 
+
 ## 其他的icon在這喔
 - https://app.zeplin.io/project/60e7faf0e90648119aae3250/styleguide/components 
 
