@@ -312,7 +312,6 @@ socket 緩存 -> uuid
 - VIP 連結導去金管家
 - 借呗 直接找之前其他頁面導去哪一頁
 - 其他頁面這兩個都有得參考路徑
-- 
 ![photo_2021-07-14_15-58-16](https://user-images.githubusercontent.com/70930579/125585503-44c4b433-b17c-4ae1-bdfb-d51834a0c649.jpg)
 - 整體的主題色是用 config 這邊控制的
 - theme 樣式調整
