@@ -325,3 +325,8 @@ cpxpjLogin.vue
 http://cpxpj.3335525.com/m/#/admin/login
 
 ## 紅包雨的功能要先拿掉
+
+## 還有要注意的是每個分頁 主題色都要白色
+- 所以可以考慮
+1. 換一個主題(現在是 theme: 'deepred'), 把剩下不是白色的都加上判斷換成白色
+2. 加一個主題 ex: white, 然後在 css 那邊全加上去
