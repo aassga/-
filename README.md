@@ -303,3 +303,26 @@ socket 緩存 -> uuid
  
 ## 客戶後台-klk
 - 打包方式 測試完成 告知客戶 需請總部的人部屬即可
+
+
+## 澳門威尼斯人改版
+
+- 註冊登入頁 的 gif 檔、logo
+- 下載頁的 logo 都要注意有沒有換到
+- VIP 連結導去金管家
+- 借呗 直接找之前其他頁面導去哪一頁
+- 其他頁面這兩個都有得參考路徑
+- 
+![photo_2021-07-14_15-58-16](https://user-images.githubusercontent.com/70930579/125585503-44c4b433-b17c-4ae1-bdfb-d51834a0c649.jpg)
+- 整體的主題色是用 config 這邊控制的
+- theme 樣式調整
+- 可以問一下 Owen 看看 原來是全白的
+- 
+## 其他的icon在這喔
+- https://app.zeplin.io/project/60e7faf0e90648119aae3250/styleguide/components 
+
+## 登入頁可以參考
+cpxpjLogin.vue
+http://cpxpj.3335525.com/m/#/admin/login
+
+## 紅包雨的功能要先拿掉
