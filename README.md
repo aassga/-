@@ -330,3 +330,15 @@ http://cpxpj.3335525.com/m/#/admin/login
 - 所以可以考慮
 1. 換一個主題(現在是 theme: 'deepred'), 把剩下不是白色的都加上判斷換成白色
 2. 加一個主題 ex: white, 然後在 css 那邊全加上去
+
+## lottery-wap-new
+Step
+1. config.js home: 加上, ex: VAR.HOME.CPXPJ
+2. VAR.js HOME:{​​​​.CPXPJ:”cpxpj” }​​​​​​​​​​​
+3. /src/pages/admin/Login.vue 新增一個 type 的 component
+import cpxpjLogin from './cpxpjLogin'
+4. Theme 的路徑新增一個 src/pages/home/theme/cpxpj
+5. 承4. /home/theme/index.js 要新增 import component
+6. src/pages/type/Type.vue 指定 type
+7. src/pages/home/Home.vue 新增 component 
+HomeCpxpj: homes.HomeCpxpj
