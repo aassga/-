@@ -356,3 +356,11 @@ marqueeList:
 - Yinsiduanxin (https://tw.yinsiduanxin.com/china-phone-number.html)
 - +86 免費中國大陸手機電話號碼在線短信驗證碼接收平臺,中國大陸在線接碼平臺 第1頁 - tw.yinsiduanxin.com
 - 免費提供中國大陸電話號碼,中國大陸手機臨時號碼,中國大陸虛擬手機號在線短信驗證
+
+
+## 公告談窗樣是 header圖片在 /src/pages/home/Home.vue
+
+### 大彈窗header 圖片
+- qpNoticeImg() 事件內
+### 小彈窗header 圖片
+- dialogTopImg() 事件內
