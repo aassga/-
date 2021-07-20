@@ -364,3 +364,5 @@ marqueeList:
 - qpNoticeImg() 事件內
 ### 小彈窗header 圖片
 - dialogTopImg() 事件內
+
+### 引入套件未必可以使用 比如說使用 vant 安裝 各別使用套件還是小心
