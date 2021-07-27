@@ -238,6 +238,7 @@ function 都放在 actions 內
 - npm run dev --site=amxpj
 
 ## lottery-wap-new 對應站點
+```
 - 有刪除、更動圖片 run  的時候就要注意有沒有報錯
 - 839棋牌      839qp.3335525.com
 - F组-太阳城   tccp.3335525.com
@@ -250,7 +251,7 @@ function 都放在 actions 內
 - 大佬彩票     dalao.3335525.com
 - 金星国际     amvns.3335525.com
 - wp-威尼斯    aqvns.3335525.com
-
+```
 
 
 ## kf-wap  客服對話開啟網址(本地
@@ -272,7 +273,7 @@ socket 緩存 -> uuid
 # 總部(其他)站點
 
 ## 客戶後台：
- 
+``` 
 - 原则上前端的流程是：
 
 1. 我们先内部测试妥善。
@@ -283,15 +284,17 @@ socket 緩存 -> uuid
 - 后端目前看起来没什么问题，暂时不讨论。
 
 - 前后开发都要考虑一下兼容性，尽量解耦合，减少出错时的伤害。
+```
 
 ## 開發時 間接想到擴充性 以低耦合高內聚去開發
 
 ## 客戶後台
+```
 - 測試環境後台: http://admin.n9963.com
 - 正式環境的測試後台: http://admin.c1055.com:801/
 - 兩個都是在 http://git.n9965.com:8888/zs/tgweb_admin_h5_v2
 - 將打包好的 dist 推上 master 的分支, 就會自動抓取部署到這兩個站
- 
+```
 ## 客戶後台-801
 - 801是客戶正式環境的測試站點
 - 網址是 http://klk.9161252.com:801/#/home
@@ -306,7 +309,7 @@ socket 緩存 -> uuid
 
 
 ## 澳門威尼斯人改版
-
+```
 - 註冊登入頁 的 gif 檔、logo
 - 下載頁的 logo 都要注意有沒有換到
 - VIP 連結導去金管家
@@ -316,7 +319,7 @@ socket 緩存 -> uuid
 - 整體的主題色是用 config 這邊控制的
 - theme 樣式調整
 - 可以問一下 Owen 看看 原來是全白的
-
+```
 ## 其他的icon在這喔
 - https://app.zeplin.io/project/60e7faf0e90648119aae3250/styleguide/components 
 
@@ -332,6 +335,7 @@ http://cpxpj.3335525.com/m/#/admin/login
 2. 加一個主題 ex: white, 然後在 css 那邊全加上去
 
 ## lottery-wap-new
+```
 Step
 1. config.js home: 加上, ex: VAR.HOME.CPXPJ
 2. VAR.js HOME:{​​​​.CPXPJ:”cpxpj” }​​​​​​​​​​​
@@ -342,21 +346,22 @@ import cpxpjLogin from './cpxpjLogin'
 6. src/pages/type/Type.vue 指定 type
 7. src/pages/home/Home.vue 新增 component 
 HomeCpxpj: homes.HomeCpxpj
-
+```
 
 ## 如果要先看公告的效果
+```
 marqueeList: 
 [{"id":3572,"siteId":77,"siteName":"F组-BET365","component":"","title":"欢迎光临！！！","type":"lantern","sub_type":"''","client_type":"PC,Android,H5,IOS","description":"欢迎光临“bet365”，在广大会员的信任与支持下，公司逐渐发展壮大，但努力永不止步，我们秉承“服务至上，客户第一”的经营理念！竭诚为每一位玩家提供专业、高效、优质的服务！“bet365”与您相伴，不忘初心，创新前进！\n易记域名： 6655.com   365n.com","status":"yes","publish_at":1623081600,"offline_at":1654012800,"created_at":"2021-06-08 21:33:29","updated_at":"2021-07-06 18:09:43","bounce_location":3,"appears_location":"1","pc_pic":"","mob_pic":"","desc_mobile":"","custom_url":"","desc_format_type":"text","sort":5,"bounce_location_h5":3,"orderId":"6251238405731"},{"id":3570,"siteId":77,"siteName":"F组-BET365","component":"","title":"充值推荐！！！","type":"lantern","sub_type":"''","client_type":"PC,H5,IOS,Android","description":"☆☆☆充值推荐☆☆☆ 充值首选【网银转账】： 尊敬各位会员您好，由于近期第三方充值不稳定，请您使用【网银转账】充值无需审核秒到账大额无忧，每日更有亿万元红包送不停，支付手续费让利会员火热进行中！业界首家全自动网银转账，正确填写存款信息，优惠赠送最高可送2%超！超！超！超高入款优惠，秒到账！\nbet365 易记域名： 6655.com   365n.com","status":"yes","publish_at":1623081600,"offline_at":1635609600,"created_at":"2021-06-08 21:32:13","updated_at":"2021-06-30 21:08:28","bounce_location":3,"appears_location":"1","pc_pic":"","mob_pic":"","desc_mobile":"","custom_url":"","desc_format_type":"text","sort":0,"bounce_location_h5":3,"orderId":"6250651167100"}]
-
+```
 
 ## 這個可以拿來註冊
+```
 - 當你需要用到大陸手機號碼時
 - https://tw.yinsiduanxin.com/china-phone-number.html
-
 - Yinsiduanxin (https://tw.yinsiduanxin.com/china-phone-number.html)
 - +86 免費中國大陸手機電話號碼在線短信驗證碼接收平臺,中國大陸在線接碼平臺 第1頁 - tw.yinsiduanxin.com
 - 免費提供中國大陸電話號碼,中國大陸手機臨時號碼,中國大陸虛擬手機號在線短信驗證
-
+```
 
 ## 公告談窗樣是 header圖片在 /src/pages/home/Home.vue
 
